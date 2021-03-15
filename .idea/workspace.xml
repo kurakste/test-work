@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="22141df0-6486-47d1-9346-03927a322601" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Public Environment File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupnpm">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="ProjectId" id="1plCBFqetPV2OXVXi5YGvGPIMls" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="rest.client.default.execution.environment" value="dev" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3033/car/8" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:3033/car/8" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;name&quot;: &quot;volvo&quot;,&#10;  &quot;color&quot;: &quot;pink&quot;,&#10;  &quot;gear&quot;: &quot;mechanical&quot;,&#10;  &quot;engine&quot;: &quot;petrol&quot;,&#10;  &quot;price&quot;: 2500000&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3033/car" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;name&quot;: &quot;volvo&quot;,&#10;  &quot;color&quot;: &quot;pink&quot;,&#10;  &quot;gear&quot;: &quot;mechanical&quot;,&#10;  &quot;engine&quot;: &quot;petrol&quot;,&#10;  &quot;price&quot;: 2500000&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3033/car" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3033/hc" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3033/car/7" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:3033/car/7" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;name&quot;: &quot;volvo&quot;,&#10;  &quot;color&quot;: &quot;pink&quot;,&#10;  &quot;gear&quot;: &quot;mechanical&quot;,&#10;  &quot;engine&quot;: &quot;petrol&quot;,&#10;  &quot;price&quot;: 2500000&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3033/car/6" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:3033/car/6" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;name&quot;: &quot;volvo&quot;,&#10;  &quot;color&quot;: &quot;pink&quot;,&#10;  &quot;gear&quot;: &quot;mechanical&quot;,&#10;  &quot;engine&quot;: &quot;petrol&quot;,&#10;  &quot;price&quot;: 2500000&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:3033/car/6" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;name&quot;: &quot;volvo@&quot;,&#10;  &quot;color&quot;: &quot;pink@&quot;,&#10;  &quot;gear&quot;: &quot;mechanical@&quot;,&#10;  &quot;engine&quot;: &quot;petrol@&quot;,&#10;  &quot;price&quot;: 12500000&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3033/car/5" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3033/car/4" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3033/car/3" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:3033/car/3" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;name&quot;: &quot;volvo&quot;,&#10;  &quot;color&quot;: &quot;pink&quot;,&#10;  &quot;gear&quot;: &quot;mechanical&quot;,&#10;  &quot;engine&quot;: &quot;petrol&quot;,&#10;  &quot;price&quot;: 2500000&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:3033/car/3" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;name&quot;: &quot;volvo@&quot;,&#10;  &quot;color&quot;: &quot;pink@&quot;,&#10;  &quot;gear&quot;: &quot;mechanical@&quot;,&#10;  &quot;engine&quot;: &quot;petrol@&quot;,&#10;  &quot;price&quot;: 12500000&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:3033/car" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;name&quot;: &quot;volvo@&quot;,&#10;  &quot;color&quot;: &quot;pink@&quot;,&#10;  &quot;gear&quot;: &quot;mechanical@&quot;,&#10;  &quot;engine&quot;: &quot;petrol@&quot;,&#10;  &quot;price&quot;: 12500000&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3033/car" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;name&quot;: &quot;volvo&quot;,&#10;  &quot;color&quot;: &quot;pink&quot;,&#10;  &quot;ger&quot;: &quot;mechanical&quot;,&#10;  &quot;engine&quot;: &quot;petrol&quot;,&#10;  &quot;price&quot;: 2500000&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3033" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="All in test" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/test/test.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="test#4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/test/test.http" index="4" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="test#5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/test/test.http" index="5" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="test#7" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/test/test.http" index="7" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="test#8" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/test/test.http" index="8" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="debug app" type="NodeJSConfigurationType" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.debug app" />
+      <item itemvalue="npm.dev" />
+      <item itemvalue="HTTP Request.test#4" />
+      <item itemvalue="HTTP Request.test#5" />
+      <item itemvalue="HTTP Request.test#7" />
+      <item itemvalue="HTTP Request.test#8" />
+      <item itemvalue="HTTP Request.All in test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.All in test" />
+        <item itemvalue="HTTP Request.test#8" />
+        <item itemvalue="HTTP Request.test#7" />
+        <item itemvalue="HTTP Request.test#5" />
+        <item itemvalue="HTTP Request.test#4" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22141df0-6486-47d1-9346-03927a322601" name="Default Changelist" comment="" />
+      <created>1615748153209</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615748153209</updated>
+      <workItem from="1615748154329" duration="1504000" />
+      <workItem from="1615750017777" duration="10120000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="424" y="202" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615831332479">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="424" y="202" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1615831332479" />
+    <state x="703" y="349" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615750583351">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="703" y="349" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1615750583351" />
+    <state width="1899" height="376" key="GridCell.Tab.0.bottom" timestamp="1615835888076">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1615835888076" />
+    <state width="1899" height="290" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1615749740225" />
+    <state width="1899" height="376" key="GridCell.Tab.0.center" timestamp="1615835888076">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1615835888076" />
+    <state width="1899" height="290" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1615749740224" />
+    <state width="1899" height="376" key="GridCell.Tab.0.left" timestamp="1615835888075">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1615835888075" />
+    <state width="1899" height="290" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1615749740224" />
+    <state width="1899" height="376" key="GridCell.Tab.0.right" timestamp="1615835888076">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1615835888076" />
+    <state width="1899" height="290" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1615749740224" />
+    <state width="1899" height="376" key="GridCell.Tab.1.bottom" timestamp="1615835888078">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1615835888078" />
+    <state width="1899" height="376" key="GridCell.Tab.1.center" timestamp="1615835888077">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1615835888077" />
+    <state width="1899" height="376" key="GridCell.Tab.1.left" timestamp="1615835888077">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1615835888077" />
+    <state width="1899" height="376" key="GridCell.Tab.1.right" timestamp="1615835888078">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1615835888078" />
+    <state width="1899" height="376" key="GridCell.Tab.2.bottom" timestamp="1615835888079">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1615835888079" />
+    <state width="1899" height="376" key="GridCell.Tab.2.center" timestamp="1615835888079">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1615835888079" />
+    <state width="1899" height="376" key="GridCell.Tab.2.left" timestamp="1615835888078">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1615835888078" />
+    <state width="1899" height="376" key="GridCell.Tab.2.right" timestamp="1615835888079">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1615835888079" />
+    <state width="1899" height="376" key="GridCell.Tab.3.bottom" timestamp="1615835888081">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.3.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1615835888081" />
+    <state width="1899" height="376" key="GridCell.Tab.3.center" timestamp="1615835888080">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.3.center/0.0.1920.1080@0.0.1920.1080" timestamp="1615835888080" />
+    <state width="1899" height="376" key="GridCell.Tab.3.left" timestamp="1615835888080">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.3.left/0.0.1920.1080@0.0.1920.1080" timestamp="1615835888080" />
+    <state width="1899" height="376" key="GridCell.Tab.3.right" timestamp="1615835888080">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.3.right/0.0.1920.1080@0.0.1920.1080" timestamp="1615835888080" />
+    <state x="469" y="171" key="SettingsEditor" timestamp="1615750259266">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="469" y="171" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1615750259266" />
+    <state x="469" y="190" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1615750003402" />
+    <state x="690" y="290" width="540" height="524" key="StructurePopup" timestamp="1615829577383">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="690" y="290" width="540" height="524" key="StructurePopup/0.0.1920.1080@0.0.1920.1080" timestamp="1615829577383" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1615831820350">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1615831820350" />
+    <state x="821" y="415" width="277" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1615835887241">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="821" y="415" width="277" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.0.1920.1080@0.0.1920.1080" timestamp="1615835887241" />
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1615834790907">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1615834790907" />
+  </component>
+</project>

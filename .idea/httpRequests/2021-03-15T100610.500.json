@@ -1,0 +1,1 @@
+{"status":"error","code":500,"message":"update `car` set `name` = 'volvo@', `color` = 'pink@', `gear` = 'mechanical@', `engine` = 'petrol@', `price` = 12500000 where `id` = '6' - SQLITE_FULL: database or disk is full"}

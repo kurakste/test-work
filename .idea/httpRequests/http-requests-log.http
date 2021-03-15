@@ -1,0 +1,498 @@
+GET http://localhost:3033/car/8
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-03-15T101325.404.json
+
+###
+
+DELETE http://localhost:3033/car/8
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "volvo",
+  "color": "pink",
+  "gear": "mechanical",
+  "engine": "petrol",
+  "price": 2500000
+}
+
+<> 2021-03-15T101324-1.201.json
+
+###
+
+GET http://localhost:3033/car/8
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-03-15T101324-2.200.json
+
+###
+
+PUT http://localhost:3033/car/8
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "volvo@",
+  "color": "pink@",
+  "gear": "mechanical@",
+  "engine": "petrol@",
+  "price": 12500000
+}
+
+###
+
+GET http://localhost:3033/car/8
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-03-15T101324-1.200.json
+
+###
+
+POST http://localhost:3033/car
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "volvo",
+  "color": "pink",
+  "gear": "mechanical",
+  "engine": "petrol",
+  "price": 2500000
+}
+
+<> 2021-03-15T101324.201.json
+
+###
+
+GET http://localhost:3033/car
+Accept: application/json
+
+<> 2021-03-15T101324.200.json
+
+###
+
+GET http://localhost:3033/hc
+Accept: application/json
+
+<> 2021-03-15T101324.200.html
+
+###
+
+GET http://localhost:3033/car/7
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-03-15T101320.404.json
+
+###
+
+DELETE http://localhost:3033/car/7
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "volvo",
+  "color": "pink",
+  "gear": "mechanical",
+  "engine": "petrol",
+  "price": 2500000
+}
+
+<> 2021-03-15T101320-1.201.json
+
+###
+
+GET http://localhost:3033/car/7
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-03-15T101320-1.200.json
+
+###
+
+PUT http://localhost:3033/car/7
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "volvo@",
+  "color": "pink@",
+  "gear": "mechanical@",
+  "engine": "petrol@",
+  "price": 12500000
+}
+
+###
+
+GET http://localhost:3033/car/7
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-03-15T101320.200.json
+
+###
+
+POST http://localhost:3033/car
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "volvo",
+  "color": "pink",
+  "gear": "mechanical",
+  "engine": "petrol",
+  "price": 2500000
+}
+
+<> 2021-03-15T101320.201.json
+
+###
+
+GET http://localhost:3033/car
+Accept: application/json
+
+<> 2021-03-15T101319.200.json
+
+###
+
+GET http://localhost:3033/hc
+Accept: application/json
+
+<> 2021-03-15T101319.200.html
+
+###
+
+GET http://localhost:3033/car/6
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-03-15T100611.200.json
+
+###
+
+DELETE http://localhost:3033/car/6
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "volvo",
+  "color": "pink",
+  "gear": "mechanical",
+  "engine": "petrol",
+  "price": 2500000
+}
+
+<> 2021-03-15T100611.500.json
+
+###
+
+GET http://localhost:3033/car/6
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-03-15T100610.200.json
+
+###
+
+PUT http://localhost:3033/car/6
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "volvo@",
+  "color": "pink@",
+  "gear": "mechanical@",
+  "engine": "petrol@",
+  "price": 12500000
+}
+
+<> 2021-03-15T100610.500.json
+
+###
+
+GET http://localhost:3033/car/6
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-03-15T100609.200.json
+
+###
+
+POST http://localhost:3033/car
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "volvo",
+  "color": "pink",
+  "gear": "mechanical",
+  "engine": "petrol",
+  "price": 2500000
+}
+
+<> 2021-03-15T100609.201.json
+
+###
+
+GET http://localhost:3033/car
+Accept: application/json
+
+<> 2021-03-15T100608.200.json
+
+###
+
+GET http://localhost:3033/hc
+Accept: application/json
+
+<> 2021-03-15T100608.200.html
+
+###
+
+GET http://localhost:3033/car/5
+Accept: application/json
+Content-Type: application/json
+
+###
+
+DELETE http://localhost:3033/car/5
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "volvo",
+  "color": "pink",
+  "gear": "mechanical",
+  "engine": "petrol",
+  "price": 2500000
+}
+
+###
+
+GET http://localhost:3033/car/5
+Accept: application/json
+Content-Type: application/json
+
+###
+
+PUT http://localhost:3033/car/5
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "volvo@",
+  "color": "pink@",
+  "gear": "mechanical@",
+  "engine": "petrol@",
+  "price": 12500000
+}
+
+###
+
+GET http://localhost:3033/car/5
+Accept: application/json
+Content-Type: application/json
+
+###
+
+POST http://localhost:3033/car
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "volvo",
+  "color": "pink",
+  "gear": "mechanical",
+  "engine": "petrol",
+  "price": 2500000
+}
+
+###
+
+GET http://localhost:3033/car
+Accept: application/json
+
+###
+
+GET http://localhost:3033/hc
+Accept: application/json
+
+###
+
+GET http://localhost:3033/car/5
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-03-15T100459.404.json
+
+###
+
+DELETE http://localhost:3033/car/5
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "volvo",
+  "color": "pink",
+  "gear": "mechanical",
+  "engine": "petrol",
+  "price": 2500000
+}
+
+###
+
+GET http://localhost:3033/car/5
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-03-15T100459-2.200.json
+
+###
+
+PUT http://localhost:3033/car/5
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "volvo@",
+  "color": "pink@",
+  "gear": "mechanical@",
+  "engine": "petrol@",
+  "price": 12500000
+}
+
+###
+
+GET http://localhost:3033/car/5
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-03-15T100459-1.200.json
+
+###
+
+POST http://localhost:3033/car
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "volvo",
+  "color": "pink",
+  "gear": "mechanical",
+  "engine": "petrol",
+  "price": 2500000
+}
+
+<> 2021-03-15T100459.201.json
+
+###
+
+GET http://localhost:3033/car
+Accept: application/json
+
+<> 2021-03-15T100459.200.json
+
+###
+
+GET http://localhost:3033/hc
+Accept: application/json
+
+<> 2021-03-15T100459.200.html
+
+###
+
+GET http://localhost:3033/car/4
+Accept: application/json
+Content-Type: application/json
+
+###
+
+DELETE http://localhost:3033/car/4
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "volvo",
+  "color": "pink",
+  "gear": "mechanical",
+  "engine": "petrol",
+  "price": 2500000
+}
+
+###
+
+GET http://localhost:3033/car/4
+Accept: application/json
+Content-Type: application/json
+
+###
+
+PUT http://localhost:3033/car/4
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "volvo@",
+  "color": "pink@",
+  "gear": "mechanical@",
+  "engine": "petrol@",
+  "price": 12500000
+}
+
+###
+
+GET http://localhost:3033/car/4
+Accept: application/json
+Content-Type: application/json
+
+###
+
+POST http://localhost:3033/car
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "volvo",
+  "color": "pink",
+  "gear": "mechanical",
+  "engine": "petrol",
+  "price": 2500000
+}
+
+###
+
+GET http://localhost:3033/car
+Accept: application/json
+
+###
+
+GET http://localhost:3033/hc
+Accept: application/json
+
+###
+
+GET http://localhost:3033/car/4
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-03-15T100430.200.json
+
+###
+
+PUT http://localhost:3033/car/4
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "volvo@",
+  "color": "pink@",
+  "gear": "mechanical@",
+  "engine": "petrol@",
+  "price": 12500000
+}
+
+###
+

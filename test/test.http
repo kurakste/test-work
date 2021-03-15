@@ -1,0 +1,122 @@
+
+### 01 health check
+GET {{url}}/hc
+Accept: application/json
+
+> {%
+    client.test("0001 ### health check", function() {
+        client.assert(response.status === 200, "Response status is not 200")
+    })
+%}
+
+### 002 ### GET /car
+GET {{url}}/car
+Accept: application/json
+
+> {%
+    client.test("002 ### GET /car", function() {
+        client.assert(response.status === 200, "Response status is not 200")
+    });
+%}
+
+### 003 ### POST /car
+POST {{url}}/car
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "volvo",
+  "color": "pink",
+  "gear": "mechanical",
+  "engine": "petrol",
+  "price": 2500000
+}
+
+> {%
+    client.test("003 ### POST /car", function() {
+        client.assert(response.status === 201, "Response status is not 201");
+        client.global.set('carIdAfterInsert', response.body.id )
+    });
+%}
+
+### 004 ### GET /car/:id after POST
+GET {{url}}/car/{{carIdAfterInsert}}
+Accept: application/json
+Content-Type: application/json
+
+> {%
+    client.test("004 ### GET /car/:id after POST", function() {
+        client.assert(response.status === 200, "Response status is not 200");
+        client.assert(response.body.name === 'volvo', 'Name has to be correct.')
+        client.assert(response.body.color === 'pink', 'Color has to be correct.')
+        client.assert(response.body.gear === 'mechanical', 'Gear has to be correct.')
+        client.assert(response.body.engine === 'petrol', 'Engine has to be correct.')
+        client.assert(response.body.price === 2500000, 'Price has to be correct.')
+    });
+%}
+
+
+### 005 ### PUT /car/:id
+PUT {{url}}/car/{{carIdAfterInsert}}
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "volvo@",
+  "color": "pink@",
+  "gear": "mechanical@",
+  "engine": "petrol@",
+  "price": 12500000
+}
+
+> {%
+    client.test("005 ### PUT /car/:id", function() {
+        client.assert(response.status === 204, "Response status is not 204");
+    });
+%}
+
+### 006 ### GET /car/:id after PUT
+GET {{url}}/car/{{carIdAfterInsert}}
+Accept: application/json
+Content-Type: application/json
+
+> {%
+    client.test("006 ### GET /car/:id after PUT", function() {
+        client.assert(response.status === 200, "Response status is not 200");
+        client.assert(response.body.name === 'volvo@', 'Name has to be correct.')
+        client.assert(response.body.color === 'pink@', 'Color has to be correct.')
+        client.assert(response.body.gear === 'mechanical@', 'Gear has to be correct.')
+        client.assert(response.body.engine === 'petrol@', 'Engine has to be correct.')
+        client.assert(response.body.price === 12500000, 'Price has to be correct.')
+    });
+%}
+
+### 007 ### DELETE /car/:id
+DELETE {{url}}/car/{{carIdAfterInsert}}
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "volvo",
+  "color": "pink",
+  "gear": "mechanical",
+  "engine": "petrol",
+  "price": 2500000
+}
+
+> {%
+    client.test("007 ### DELETE /car/:id", function() {
+        client.assert(response.status === 201, "Response status is not 201");
+    });
+%}
+
+### 008 ### GET /car/:id after DELETE
+GET {{url}}/car/{{carIdAfterInsert}}
+Accept: application/json
+Content-Type: application/json
+
+> {%
+    client.test("008 ### GET /car/:id after DELETE", function() {
+        client.assert(response.status === 404, "Response status is not 404");
+    });
+%}
